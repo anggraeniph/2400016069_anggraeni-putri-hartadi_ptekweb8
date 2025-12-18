@@ -2,16 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import "./App.css";
 import "./index.css";
+import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/2400016069_anggraeni-putri-hartadi_TEKWEB8">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
+
 
 
 
